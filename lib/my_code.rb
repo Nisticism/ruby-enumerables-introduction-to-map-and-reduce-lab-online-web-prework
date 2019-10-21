@@ -9,5 +9,5 @@ def map(input[1,2,3]) {
 }
 
 def map_to_negativize(source_array) {
-  
+  for 
 }
