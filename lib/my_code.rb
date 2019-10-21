@@ -24,7 +24,7 @@ def map_to_double(source_array)
 result_array
 end
 
-def map_to_negativize(source_array)
+def map_to_square(source_array)
   result_array = []
   counter = 0
   while counter < source_array.length
