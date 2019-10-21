@@ -35,10 +35,10 @@ result_array
 end
 
 def reduce_to_all_true(source_array)
-  total = starting_point
   counter = 0
   while counter < source_array.length
-    total += source_array[counter]
+    if source_array[counter] == FALSE
+      
     counter += 1
   end
 result_array
