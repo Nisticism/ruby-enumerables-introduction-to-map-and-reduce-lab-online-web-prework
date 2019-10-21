@@ -2,8 +2,8 @@
 
 def map_to_negativize(source_array)
   result_array = []
-  for element in source_array {
+  for element in source_array
     result_array.push(source_array[element * -1])
-  }
+  end
 source_array
 end
