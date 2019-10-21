@@ -37,8 +37,7 @@ end
 def reduce_to_total(source_array, starting_point = NIL)
   if starting_point != NIL
     total = starting_point
-  end
-  if starting_point == NIL
+  elsif starting_point == NIL
     total = 0
   end
   counter = 0
